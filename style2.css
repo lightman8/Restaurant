@@ -1,0 +1,142 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.menu{
+  text-decoration:underline 3px #e75c1B;
+}
+a{
+  text-decoration:none;
+  color: black;
+  font-weight: bolder;
+}
+
+header{
+  display: flex;
+  gap: 23px;
+  /*background-color: red;*/
+  padding: 20px;
+}
+nav{
+  padding-top: 22px;
+}
+.accueil{
+  padding-right:12px;
+}
+
+.conct{
+  padding-left: 12px;
+}
+
+.logo{
+  width:42px;
+  /* height: 12pxx; */
+  padding-top:12px;
+}
+
+/*section intro*/
+.click{
+  background-color: orangered;
+  padding: 30px;
+  color: #fff;
+  text-align: center;
+}
+
+.btn{
+  background-color: black;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 6px 12px 6px 12px;
+}
+
+span{
+  color: orangered;
+}
+.click p{
+  padding-bottom: 12px;
+}
+
+/*section dev*/
+.principal{
+background-color: rgba(240, 248, 255, 0.733);  
+  padding-top: 23px;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.gras{
+  font-weight: bold;
+}
+/*.dev{
+  padding-top: 23px;
+}*/
+
+.fin{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.fin h3{
+  text-decoration:underline 3px orangered;
+}
+
+/*section milieu*/
+
+.milieu{
+  background-color: #fff;
+  text-align: center;
+ /* color: white;*/
+  
+}
+
+.entré h2{
+  text-decoration: underline 3px orangered;
+  padding-bottom: 23px;
+  padding-top: 23px;
+}
+.entré h3,p{
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+/*fin de page*/
+/* footer{
+  background-color: black;
+  padding: 50px;
+}*/
+
+.logoXL{
+  width: 100px;
+  padding-top: 25px;
+} 
+
+.pied_de_page{
+  background-color: black;
+  padding: 50px;
+  padding-left: 1200px;
+}
+.image_reseau1{
+  /* width: 300px;
+  width: 650px; */
+  padding-right: 12px;
+}
+.image_reseau3{
+  padding-left: 12px;
+}
+
+button:active{
+  background-color: #fff;
+  color: #d2483d;
+}
+
+a:hover{
+  color: #d2483d;
+  text-decoration: underline 3px black;
+}
+
+button:hover{
+  color: #d2483d;
+}
